@@ -146,6 +146,9 @@ importers:
       tree-sitter-yaml:
         specifier: github:tree-sitter-grammars/tree-sitter-yaml#7b03feefd36b5f155465ca736c6304aca983b267
         version: '@tree-sitter-grammars/tree-sitter-yaml@https://codeload.github.com/tree-sitter-grammars/tree-sitter-yaml/tar.gz/7b03feefd36b5f155465ca736c6304aca983b267(tree-sitter@0.21.1)'
+      tree-sitter-zig:
+        specifier: github:tree-sitter/zig-tree-sitter#a53dac49d66562006e84dd11211b7ae40db68263
+        version: zig-tree-sitter#a53dac49d66562006e84dd11211b7ae40db68263@https://codeload.github.com/tree-sitter/zig-tree-sitter/tar.gz/a53dac49d66562006e84dd11211b7ae40db68263
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@20.17.12)(typescript@5.7.3)
@@ -698,6 +701,10 @@ packages:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
 
+  zig-tree-sitter#a53dac49d66562006e84dd11211b7ae40db68263@https://codeload.github.com/tree-sitter/zig-tree-sitter/tar.gz/a53dac49d66562006e84dd11211b7ae40db68263:
+    resolution: {tarball: https://codeload.github.com/tree-sitter/zig-tree-sitter/tar.gz/a53dac49d66562006e84dd11211b7ae40db68263}
+    version: 0.0.0
+
 snapshots:
 
   '@cspotcode/source-map-support@0.8.1':
@@ -1146,3 +1153,5 @@ snapshots:
   wrappy@1.0.2: {}
 
   yn@3.1.1: {}
+
+  zig-tree-sitter#a53dac49d66562006e84dd11211b7ae40db68263@https://codeload.github.com/tree-sitter/zig-tree-sitter/tar.gz/a53dac49d66562006e84dd11211b7ae40db68263: {}
